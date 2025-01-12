@@ -1,4 +1,4 @@
-# MLIP-graphene_Pt_crystal_growth-H2_reactivity
+# MLIP-GrPt-CrystGrow-H2React
 
 ## Overview
 This repository provides resources and workflows for modeling Pt-functionalized graphene using machine learning interatomic potentials (MLIPs), focusing on the nucleation and growth of Pt on graphene and its hydrogen reactivity for applications in sensing and storage.
