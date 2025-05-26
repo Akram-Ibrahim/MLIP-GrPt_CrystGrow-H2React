@@ -9,22 +9,22 @@
     .tabs { text-align:center; margin-bottom:1em }
     .tabs button {
       background:#fff; border:1px solid #ccc; padding:10px 20px;
-      margin:0 5px; cursor:pointer; border-radius:4px 4px 0 0;
-      font-size:1em
+      margin:0 5px; cursor:pointer; border-radius:4px 4px 0 0; font-size:1em;
     }
     .tabs button.active { background:#eee; border-bottom:1px solid #eee }
     .tab-content {
       display:none; background:#fff; padding:20px;
-      border:1px solid #ccc; border-radius:0 4px 4px 4px
+      border:1px solid #ccc; border-radius:0 4px 4px 4px;
     }
     .tab-content.active { display:block }
     .video-grid {
-      display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-      gap:20px; margin-bottom:2em
+      display:grid; gap:20px; margin-bottom:2em;
     }
+    .growth-grid { grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); }
+    .sensing-grid { grid-template-columns:repeat(3,1fr); }
     .video-item {
       background:#fafafa; padding:10px; border-radius:4px;
-      box-shadow:0 2px 6px rgba(0,0,0,0.1); text-align:center
+      box-shadow:0 2px 6px rgba(0,0,0,0.1); text-align:center;
     }
     .video-item h2 { margin:0.5em 0; font-size:1.1em }
     video { width:100%; height:auto; border-radius:4px; background:#000 }
@@ -45,13 +45,13 @@
   <h1>Pt on Graphene Simulations @ 300 K</h1>
 
   <div class="tabs">
-    <button id="tab-growth" class="active">🌱 Crystal Growth</button>
-    <button id="tab-sensing">🔬 H₂ Sensing</button>
+    <button id="tab-growth" class="active">⚛️ Crystal Growth</button>
+    <button id="tab-sensing">📶 H₂ Sensing</button>
   </div>
 
-  <!-- Crystal Growth Tab -->
+  <!-- Crystal Growth -->
   <div id="growth" class="tab-content active">
-    <div class="video-grid">
+    <div class="video-grid growth-grid">
       <div class="video-item">
         <h2>Pt Loading: 0.25 ML</h2>
         <video controls preload="metadata">
@@ -115,16 +115,16 @@
     </div>
     <section class="description">
       <h2>Simulation details</h2>
-      <p><strong>Color key:</strong> Gray atoms = graphene; colored clusters = Pt atoms (based on final distinct cluster membership).</p>
+      <p><strong>Color key:</strong> Gray atoms = graphene; colored clusters = Pt atoms (based on final cluster membership).</p>
       <p><strong>Time step:</strong> 2 fs; each frame = 2 ps; total simulation ≈ 400 ps.</p>
       <p><strong>Process:</strong> PVD of Pt on graphene at 300 K; sequential loading from 0.25 to 2.50 ML (1.00 ML = 100% area).</p>
       <p><strong>Substrate size:</strong> graphene cell ≈ 15 × 14.8 nm².</p>
     </section>
   </div>
 
-  <!-- H₂ Sensing Tab -->
+  <!-- H₂ Sensing -->
   <div id="sensing" class="tab-content">
-    <div class="video-grid">
+    <div class="video-grid sensing-grid">
       <div class="video-item">
         <h2>Pt Loading: 0.50 ML</h2>
         <video controls preload="metadata">
@@ -168,7 +168,7 @@
       <p><strong>Color key:</strong> Red = molecular H₂; blue = atomic H.</p>
       <p><strong>Time step:</strong> 1 fs; each frame = 2 ps; total simulation ≈ 400 ps.</p>
       <p><strong>Temperature:</strong> 300 K (room temperature).</p>
-      <p><strong>Process:</strong> MD simulation of H₂ dissociation and sensing on Pt-functionalized graphene.</p>
+      <p><strong>Process:</strong> MD simulation of H₂ dissociation and chemi-resistive sensing on Pt-functionalized graphene.</p>
     </section>
   </div>
 
