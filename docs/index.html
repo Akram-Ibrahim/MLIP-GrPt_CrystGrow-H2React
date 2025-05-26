@@ -7,11 +7,17 @@
     body { margin:0; padding:20px; font-family:Arial,sans-serif; background:#f0f0f0; color:#222 }
     h1 { text-align:center; margin-bottom:0.5em }
     .tabs { text-align:center; margin-bottom:1em }
-    .tabs button {
-      background:#fff; border:1px solid #ccc; padding:10px 20px;
-      margin:0 5px; cursor:pointer; border-radius:4px 4px 0 0; font-size:1em;
+    .tabs a {
+      display:inline-block;
+      text-decoration:none;
+      background:#fff; border:1px solid #ccc;
+      padding:10px 20px; margin:0 5px;
+      border-radius:4px 4px 0 0; color:#222;
+      font-size:1em;
     }
-    .tabs button.active { background:#eee; border-bottom:1px solid #eee }
+    .tabs a.active {
+      background:#eee; border-bottom:1px solid #eee;
+    }
     .tab-content {
       display:none; background:#fff; padding:20px;
       border:1px solid #ccc; border-radius:0 4px 4px 4px;
@@ -45,12 +51,12 @@
   <h1>Pt on Graphene Simulations @ 300 K</h1>
 
   <div class="tabs">
-    <button id="tab-growth" class="active">⚛️ Crystal Growth</button>
-    <button id="tab-sensing">📶 H₂ Sensing</button>
+    <a href="#growth" id="tab-growth">⚛️ Crystal Growth</a>
+    <a href="#sensing" id="tab-sensing">📶 H₂ Sensing</a>
   </div>
 
   <!-- Crystal Growth -->
-  <div id="growth" class="tab-content active">
+  <div id="growth" class="tab-content">
     <div class="video-grid growth-grid">
       <div class="video-item">
         <h2>Pt Loading: 0.25 ML</h2>
@@ -173,18 +179,26 @@
   </div>
 
   <script>
-    const btnG = document.getElementById('tab-growth'),
-          btnS = document.getElementById('tab-sensing'),
-          paneG = document.getElementById('growth'),
-          paneS = document.getElementById('sensing');
-    btnG.onclick = () => {
-      btnG.classList.add('active'); btnS.classList.remove('active');
-      paneG.classList.add('active'); paneS.classList.remove('active');
+    const tabs = {
+      '#growth': { btn: 'tab-growth', pane: 'growth' },
+      '#sensing': { btn: 'tab-sensing', pane: 'sensing' },
     };
-    btnS.onclick = () => {
-      btnS.classList.add('active'); btnG.classList.remove('active');
-      paneS.classList.add('active'); paneG.classList.remove('active');
-    };
+    function activate(hash) {
+      if (!tabs[hash]) hash = '#growth';
+      for (let h in tabs) {
+        const isActive = (h === hash);
+        document.getElementById(tabs[h].btn)
+                .classList.toggle('active', isActive);
+        document.getElementById(tabs[h].pane)
+                .classList.toggle('active', isActive);
+      }
+    }
+    window.addEventListener('DOMContentLoaded', () => {
+      activate(window.location.hash);
+    });
+    window.addEventListener('hashchange', () => {
+      activate(window.location.hash);
+    });
   </script>
 
 </body>
