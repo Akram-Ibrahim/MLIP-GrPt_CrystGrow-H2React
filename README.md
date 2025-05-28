@@ -13,14 +13,22 @@ This repository provides:
   - **Transduction sensitivity**  
 
 ## Web Demos
-### Interactive, browser-based video visualizations (no software install required — Just click below):
 
-[![Crystal Growth](images/image_1.png)](https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/#growth)  
+**Main demo:**  
+https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/
+
+[![Just click below](https://img.shields.io/badge/-Just%20click%20below-ff69b4?style=for-the-badge)](https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/)
+
+---
+
+#### Nucleation and Structural Evolution of Pt Nanostructures on Graphene  
+[![Crystal Growth](images/image_1.png)](https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/#growth)
+
+---
+
+#### H₂ Chemical Sensing on Pt-Functionalized Graphene  
 [![H₂ Sensing](images/image_2.png)](https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/#sensing)
 
-Use the tabs at the top of the page to switch between:
-- ⚛️ Crystal Growth (Pt deposition movies)  
-- 📶 H₂ Sensing (H₂ sensing movies)
 
 ## Paper
 **Data-Driven Molecular Dynamics and TEM Analysis of Crystal Growth and Hydrogen Sensing in Platinum-Functionalized Graphene Chemiresistive Sensors**  
