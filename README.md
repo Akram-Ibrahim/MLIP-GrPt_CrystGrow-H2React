@@ -16,7 +16,11 @@ This repository provides:
 Interactive, browser-based visualizations (no software install required):
 
 - ⚛️ **Crystal Growth** &nbsp;|&nbsp; 📶 **H₂ Sensing**  
-  https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/  
+  https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/
+  <img width="1710" alt="image" src="https://github.com/user-attachments/assets/d65e6287-46c1-459f-8ad3-21a60b8d3ee1" />
+  <img width="1705" alt="image" src="https://github.com/user-attachments/assets/96c5b4ea-40e7-41a2-a052-d4af3a0faea5" />
+
+
 
   Use the tabs at the top of the page to switch between:
   - ⚛️ Crystal Growth (Pt deposition movies)  
