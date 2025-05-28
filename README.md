@@ -14,20 +14,20 @@ This repository provides:
 
 ## Web Demos
 
-**Main demo:**  
-https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/
+Interactive, browser-based video visualizations (no software install required — Just click the buttons below):
 
-[![Just click below](https://img.shields.io/badge/-Just%20click%20below-ff69b4?style=for-the-badge)](https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/)
-
----
-
-#### Nucleation and Structural Evolution of Pt Nanostructures on Graphene  
-[![Crystal Growth](images/image_1.png)](https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/#growth)
+[![Growth Demo](https://img.shields.io/badge/-Growth%20Demo-ff69b4?style=for-the-badge)](https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/#growth)
+[![Sensing Demo](https://img.shields.io/badge/-Sensing%20Demo-ff69b4?style=for-the-badge)](https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/#sensing)
 
 ---
 
-#### H₂ Chemical Sensing on Pt-Functionalized Graphene  
-[![H₂ Sensing](images/image_2.png)](https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/#sensing)
+#### Nucleation and Structural Evolution of Pt Nanostructures on Graphene
+![Crystal Growth](images/image_1.png)
+
+---
+
+#### H₂ Chemical Sensing on Pt-Functionalized Graphene
+![H₂ Sensing](images/image_2.png)
 
 
 ## Paper
