@@ -16,8 +16,8 @@ This repository provides:
 
 Interactive, browser-based video visualizations (no software install required — Just click the buttons below):
 
-[![Growth Demo](https://img.shields.io/badge/-Growth%20Demo-ff69b4?style=for-the-badge)](https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/#growth)
-[![Sensing Demo](https://img.shields.io/badge/-Sensing%20Demo-ff69b4?style=for-the-badge)](https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/#sensing)
+[![Crystal Growth Demo](https://img.shields.io/badge/-Growth%20Demo-ff69b4?style=for-the-badge)](https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/#growth)
+[![Gas Sensing Demo](https://img.shields.io/badge/-Sensing%20Demo-ff69b4?style=for-the-badge)](https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/#sensing)
 
 ---
 
