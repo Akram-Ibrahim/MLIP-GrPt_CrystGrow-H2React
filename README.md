@@ -14,10 +14,10 @@ This repository provides:
 
 ## Web Demos
 
-Interactive, browser-based video visualizations (no software install required — Just click the buttons below):
+Interactive, browser-based video visualizations (no software install required — Just Click):
 
-[![Crystal Growth Demo](https://img.shields.io/badge/-Growth%20Demo-ff69b4?style=for-the-badge)](https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/#growth)
-[![Gas Sensing Demo](https://img.shields.io/badge/-Sensing%20Demo-ff69b4?style=for-the-badge)](https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/#sensing)
+[![Crystal Growth Demo](https://img.shields.io/badge/-Crystal%20Growth%20Demo-ff69b4?style=for-the-badge)](https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/#growth)
+[![Gas Sensing Demo](https://img.shields.io/badge/-Gas%20Sensing%20Demo-ff69b4?style=for-the-badge)](https://akram-ibrahim.github.io/MLIP-GrPt_CrystGrow-H2_Sensing/#sensing)
 
 ---
 
